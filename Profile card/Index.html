@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="profile-img">
+        <img
+          src="profile-pic.png"
+          alt="Profile Pic"
+          data-testid="profilePicture"
+        />
+      </div>
+      <div class="data-info">
+        <h1 class="fullname" data-testid="fullName">
+          Ibironke Kafilat Mustapha
+        </h1>
+        <h2 class="job-title" data-testid="jobTitle">Front-End Developer</h2>
+        <p class="short-bio" data-testid="shortBio">
+          A a passionate front-end developer with a strong eye for design and a
+          deep understanding of user experience. Specializing in HTML, CSS, and
+          JavaScript, to create responsive and visually appealing websites and
+          web applications. With knowledge in modern frameworks like React, I
+          strives to build fast, accessible, and interactive interfaces that
+          deliver seamless experiences
+        </p>
+        <p class="current-location" data-testid="currentLocation">
+          Lagos, Nigeria
+        </p>
+        <a
+          href="mailto:ibironkemustapha.k@gmail.com"
+          class="email-address"
+          data-testid="emailAddress"
+          >ibironkemustapha.k@gmail.com</a
+        >
+        <div class="social-links" data-testid="socialLinks">
+          <a
+            href="https://www.linkedin.com/in/ibironke-mustapha-7496811a0"
+            target="_blank"
+            >Linkedln</a
+          >
+          <a href="https://github.com/IbironkeM" target="_blank">Github</a>
+        </div>
+        <p class="current-time" data-testid="currentTimeUTC"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
